@@ -22,7 +22,10 @@ ARM_JOINT_NAMES = [".*_arm_.*"]
 
 DIGIT_V4_CFG = ArticulationCfg(
     spawn=sim_utils.UsdFileCfg(
-        usd_path=f"{ISAAC_NUCLEUS_DIR}/Robots/Agility/Digit/digit_v4.usd",
+        # Original Nucleus path (commented out):
+        # usd_path=f"{ISAAC_NUCLEUS_DIR}/Robots/Agility/Digit/digit_v4.usd",
+        # Local path:
+        usd_path="/home/vancenguyen/research/MyIsaacLab/scripts/tools/digit_assets/digit_v4.usd",
         activate_contact_sensors=True,
     ),
     init_state=ArticulationCfg.InitialStateCfg(
