@@ -1,0 +1,1404 @@
+
+================================================================================
+              INSPECTING: scripts/tools/digit_assets/digit_v4.usd               
+================================================================================
+Root Prim: /Digit
+Type: Xform
+
+Total Prims: 245
+Rigid Bodies: 43
+Joints: 123
+Meshes: 36
+Xforms: 95
+
+================================================================================
+                              RIGID BODIES (Links)                              
+================================================================================
+
+[1] /Digit/left_leg_hip_roll
+    Name: left_leg_hip_roll
+    Type: Xform
+    Mass: 2.320480 kg
+    Center of Mass: (0.000013, -0.021029, -0.079277)
+    Diagonal Inertia: [0.014572, 0.012976, 0.004285]
+    Transform Ops: 1
+
+[2] /Digit/left_leg_hip_yaw
+    Name: left_leg_hip_yaw
+    Type: Xform
+    Mass: 0.536252 kg
+    Center of Mass: (-0.000067, -0.003292, 0.035389)
+    Diagonal Inertia: [0.001852, 0.001794, 0.000611]
+    Transform Ops: 1
+
+[3] /Digit/left_leg_hip_pitch
+    Name: left_leg_hip_pitch
+    Type: Xform
+    Mass: 5.618790 kg
+    Center of Mass: (0.000413, 0.110913, -0.052684)
+    Diagonal Inertia: [0.080615, 0.077307, 0.064832]
+    Transform Ops: 1
+
+[4] /Digit/left_leg_achilles_rod
+    Name: left_leg_achilles_rod
+    Type: Xform
+    Mass: 0.198617 kg
+    Center of Mass: (0.000000, -0.200597, 0.000021)
+    Diagonal Inertia: [0.011376, 0.011373, 0.000007]
+    Transform Ops: 1
+
+[5] /Digit/left_leg_knee
+    Name: left_leg_knee
+    Type: Xform
+    Mass: 2.635360 kg
+    Center of Mass: (-0.015438, 0.154963, -0.019826)
+    Diagonal Inertia: [0.164205, 0.160261, 0.007801]
+    Transform Ops: 1
+
+[6] /Digit/left_leg_tarsus
+    Name: left_leg_tarsus
+    Type: Xform
+    Mass: 2.712130 kg
+    Center of Mass: (-0.048849, 0.121686, -0.001444)
+    Diagonal Inertia: [0.073436, 0.070064, 0.006696]
+    Transform Ops: 1
+
+[7] /Digit/left_leg_toe_a
+    Name: left_leg_toe_a
+    Type: Xform
+    Mass: 0.190389 kg
+    Center of Mass: (0.000006, 0.010737, -0.009283)
+    Diagonal Inertia: [0.000213, 0.000174, 0.000136]
+    Transform Ops: 1
+
+[8] /Digit/left_leg_toe_a_rod
+    Name: left_leg_toe_a_rod
+    Type: Xform
+    Mass: 0.178958 kg
+    Center of Mass: (0.000000, -0.217891, 0.000000)
+    Diagonal Inertia: [0.012453, 0.012452, 0.000004]
+    Transform Ops: 1
+
+[9] /Digit/left_leg_toe_b
+    Name: left_leg_toe_b
+    Type: Xform
+    Mass: 0.190389 kg
+    Center of Mass: (0.000006, 0.010737, -0.009283)
+    Diagonal Inertia: [0.000213, 0.000174, 0.000136]
+    Transform Ops: 1
+
+[10] /Digit/left_leg_toe_b_rod
+    Name: left_leg_toe_b_rod
+    Type: Xform
+    Mass: 0.153626 kg
+    Center of Mass: (0.000000, -0.177821, 0.000000)
+    Diagonal Inertia: [0.007204, 0.007203, 0.000003]
+    Transform Ops: 1
+
+[11] /Digit/left_leg_toe_pitch
+    Name: left_leg_toe_pitch
+    Type: Xform
+    Mass: 0.184436 kg
+    Center of Mass: (-0.007098, 0.000000, -0.001022)
+    Diagonal Inertia: [0.000153, 0.000145, 0.000134]
+    Transform Ops: 1
+
+[12] /Digit/left_leg_toe_roll
+    Name: left_leg_toe_roll
+    Type: Xform
+    Mass: 0.688956 kg
+    Center of Mass: (0.000041, 0.017828, -0.002955)
+    Diagonal Inertia: [0.002450, 0.002439, 0.000589]
+    Transform Ops: 1
+
+[13] /Digit/left_arm_shoulder_pitch
+    Name: left_arm_shoulder_pitch
+    Type: Xform
+    Mass: 2.686810 kg
+    Center of Mass: (-0.004948, -0.001010, -0.082810)
+    Diagonal Inertia: [0.017708, 0.016289, 0.004737]
+    Transform Ops: 1
+
+[14] /Digit/left_arm_shoulder_roll
+    Name: left_arm_shoulder_roll
+    Type: Xform
+    Mass: 0.467155 kg
+    Center of Mass: (-0.000014, -0.063935, -0.031991)
+    Diagonal Inertia: [0.002808, 0.002728, 0.000365]
+    Transform Ops: 1
+
+[15] /Digit/left_arm_shoulder_yaw
+    Name: left_arm_shoulder_yaw
+    Type: Xform
+    Mass: 2.807940 kg
+    Center of Mass: (-0.000699, 0.003740, -0.145820)
+    Diagonal Inertia: [0.053137, 0.052616, 0.003756]
+    Transform Ops: 1
+
+[16] /Digit/left_arm_elbow
+    Name: left_arm_elbow
+    Type: Xform
+    Mass: 0.328653 kg
+    Center of Mass: (0.008471, -0.076320, -0.020518)
+    Diagonal Inertia: [0.002367, 0.002288, 0.000221]
+    Transform Ops: 1
+
+[17] /Digit/left_arm_wrist_roll
+    Name: left_arm_wrist_roll
+    Type: Xform
+    Mass: 1.872120 kg
+    Center of Mass: (0.000169, 0.000211, -0.121328)
+    Diagonal Inertia: [0.026181, 0.025869, 0.001807]
+    Transform Ops: 1
+
+[18] /Digit/left_arm_wrist_pitch
+    Name: left_arm_wrist_pitch
+    Type: Xform
+    Mass: 0.781716 kg
+    Center of Mass: (0.000030, -0.060594, -0.014028)
+    Diagonal Inertia: [0.003323, 0.002214, 0.002127]
+    Transform Ops: 1
+
+[19] /Digit/left_arm_wrist_yaw
+    Name: left_arm_wrist_yaw
+    Type: Xform
+    Mass: 0.153931 kg
+    Center of Mass: (0.003421, -0.029094, -0.040491)
+    Diagonal Inertia: [0.000686, 0.000568, 0.000148]
+    Transform Ops: 1
+
+[20] /Digit/right_leg_hip_roll
+    Name: right_leg_hip_roll
+    Type: Xform
+    Mass: 2.320480 kg
+    Center of Mass: (0.000013, 0.021029, -0.079277)
+    Diagonal Inertia: [0.014572, 0.012976, 0.004285]
+    Transform Ops: 1
+
+[21] /Digit/right_leg_hip_yaw
+    Name: right_leg_hip_yaw
+    Type: Xform
+    Mass: 0.536252 kg
+    Center of Mass: (-0.000067, 0.003292, 0.035389)
+    Diagonal Inertia: [0.001852, 0.001794, 0.000611]
+    Transform Ops: 1
+
+[22] /Digit/right_leg_hip_pitch
+    Name: right_leg_hip_pitch
+    Type: Xform
+    Mass: 5.618790 kg
+    Center of Mass: (0.000413, -0.110913, -0.052684)
+    Diagonal Inertia: [0.080615, 0.077307, 0.064832]
+    Transform Ops: 1
+
+[23] /Digit/right_leg_achilles_rod
+    Name: right_leg_achilles_rod
+    Type: Xform
+    Mass: 0.198617 kg
+    Center of Mass: (0.000000, 0.200597, 0.000021)
+    Diagonal Inertia: [0.011376, 0.011373, 0.000007]
+    Transform Ops: 1
+
+[24] /Digit/right_leg_knee
+    Name: right_leg_knee
+    Type: Xform
+    Mass: 2.635360 kg
+    Center of Mass: (-0.015438, -0.154963, -0.019826)
+    Diagonal Inertia: [0.164205, 0.160261, 0.007801]
+    Transform Ops: 1
+
+[25] /Digit/right_leg_tarsus
+    Name: right_leg_tarsus
+    Type: Xform
+    Mass: 2.712130 kg
+    Center of Mass: (-0.048849, -0.121686, -0.001444)
+    Diagonal Inertia: [0.073436, 0.070064, 0.006696]
+    Transform Ops: 1
+
+[26] /Digit/right_leg_toe_a
+    Name: right_leg_toe_a
+    Type: Xform
+    Mass: 0.190389 kg
+    Center of Mass: (0.000006, -0.010737, -0.009283)
+    Diagonal Inertia: [0.000213, 0.000174, 0.000136]
+    Transform Ops: 1
+
+[27] /Digit/right_leg_toe_a_rod
+    Name: right_leg_toe_a_rod
+    Type: Xform
+    Mass: 0.178958 kg
+    Center of Mass: (0.000000, 0.217891, 0.000000)
+    Diagonal Inertia: [0.012453, 0.012452, 0.000004]
+    Transform Ops: 1
+
+[28] /Digit/right_leg_toe_b
+    Name: right_leg_toe_b
+    Type: Xform
+    Mass: 0.190389 kg
+    Center of Mass: (0.000006, -0.010737, -0.009283)
+    Diagonal Inertia: [0.000213, 0.000174, 0.000136]
+    Transform Ops: 1
+
+[29] /Digit/right_leg_toe_b_rod
+    Name: right_leg_toe_b_rod
+    Type: Xform
+    Mass: 0.153626 kg
+    Center of Mass: (0.000000, 0.177821, 0.000000)
+    Diagonal Inertia: [0.007204, 0.007203, 0.000003]
+    Transform Ops: 1
+
+[30] /Digit/right_leg_toe_pitch
+    Name: right_leg_toe_pitch
+    Type: Xform
+    Mass: 0.184436 kg
+    Center of Mass: (-0.007098, 0.000000, -0.001022)
+    Diagonal Inertia: [0.000153, 0.000145, 0.000134]
+    Transform Ops: 1
+
+[31] /Digit/right_leg_toe_roll
+    Name: right_leg_toe_roll
+    Type: Xform
+    Mass: 0.688956 kg
+    Center of Mass: (0.000041, -0.017828, -0.002955)
+    Diagonal Inertia: [0.002450, 0.002439, 0.000589]
+    Transform Ops: 1
+
+[32] /Digit/right_arm_shoulder_pitch
+    Name: right_arm_shoulder_pitch
+    Type: Xform
+    Mass: 2.686810 kg
+    Center of Mass: (-0.004948, 0.001010, -0.082810)
+    Diagonal Inertia: [0.017708, 0.016289, 0.004737]
+    Transform Ops: 1
+
+[33] /Digit/right_arm_shoulder_roll
+    Name: right_arm_shoulder_roll
+    Type: Xform
+    Mass: 0.467155 kg
+    Center of Mass: (-0.000014, 0.063935, -0.031991)
+    Diagonal Inertia: [0.002808, 0.002728, 0.000365]
+    Transform Ops: 1
+
+[34] /Digit/right_arm_shoulder_yaw
+    Name: right_arm_shoulder_yaw
+    Type: Xform
+    Mass: 2.807940 kg
+    Center of Mass: (-0.000699, -0.003740, -0.145820)
+    Diagonal Inertia: [0.053137, 0.052616, 0.003756]
+    Transform Ops: 1
+
+[35] /Digit/right_arm_elbow
+    Name: right_arm_elbow
+    Type: Xform
+    Mass: 0.328653 kg
+    Center of Mass: (0.008471, 0.076320, -0.020518)
+    Diagonal Inertia: [0.002367, 0.002288, 0.000221]
+    Transform Ops: 1
+
+[36] /Digit/right_arm_wrist_roll
+    Name: right_arm_wrist_roll
+    Type: Xform
+    Mass: 1.872120 kg
+    Center of Mass: (0.000169, -0.000211, -0.121328)
+    Diagonal Inertia: [0.026181, 0.025869, 0.001807]
+    Transform Ops: 1
+
+[37] /Digit/right_arm_wrist_pitch
+    Name: right_arm_wrist_pitch
+    Type: Xform
+    Mass: 0.781716 kg
+    Center of Mass: (0.000030, 0.060594, -0.014028)
+    Diagonal Inertia: [0.003323, 0.002214, 0.002127]
+    Transform Ops: 1
+
+[38] /Digit/right_arm_wrist_yaw
+    Name: right_arm_wrist_yaw
+    Type: Xform
+    Mass: 0.153931 kg
+    Center of Mass: (0.003421, 0.029094, -0.040491)
+    Diagonal Inertia: [0.000686, 0.000568, 0.000148]
+    Transform Ops: 1
+
+[39] /Digit/torso_base
+    Name: torso_base
+    Type: Xform
+    Mass: 19.465599 kg
+    Center of Mass: (-0.017040, 0.000000, 0.276408)
+    Diagonal Inertia: [1.032010, 1.003800, 0.169086]
+    Transform Ops: 1
+
+[40] /Digit/forward_pelvis_camera_mount
+    Name: forward_pelvis_camera_mount
+    Type: Xform
+    Transform Ops: 3
+      Translate: (0.0605, -0.0010, -0.0650)
+      Scale: (1.0000, 1.0000, 1.0000)
+
+[41] /Digit/forward_chest_camera_mount
+    Name: forward_chest_camera_mount
+    Type: Xform
+    Transform Ops: 3
+      Translate: (0.0893, 0.0017, 0.4307)
+      Scale: (1.0000, 1.0000, 1.0000)
+
+[42] /Digit/backward_pelvis_camera_mount
+    Name: backward_pelvis_camera_mount
+    Type: Xform
+    Transform Ops: 3
+      Translate: (-0.1008, -0.0048, 0.4341)
+      Scale: (1.0000, 1.0000, 1.0000)
+
+[43] /Digit/downward_pelvis_camera_mount
+    Name: downward_pelvis_camera_mount
+    Type: Xform
+    Transform Ops: 3
+      Translate: (-0.1053, 0.0004, 0.0636)
+      Scale: (1.0000, 1.0000, 1.0000)
+
+================================================================================
+                                     JOINTS                                     
+================================================================================
+
+[1] /Digit/left_leg_hip_roll
+    Name: left_leg_hip_roll
+    Type: Xform
+
+[2] /Digit/joints/left_leg_hip_roll
+    Name: left_leg_hip_roll
+    Type: PhysicsRevoluteJoint
+    Damping (drive:angular:physics:damping): 0.100000
+    Stiffness (drive:angular:physics:stiffness): 10.000000
+    Damping (physxLimit:X:damping): 1.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[3] /Digit/joints/left_leg_hip_yaw
+    Name: left_leg_hip_yaw
+    Type: PhysicsRevoluteJoint
+    Damping (drive:angular:physics:damping): 0.100000
+    Stiffness (drive:angular:physics:stiffness): 10.000000
+    Damping (physxLimit:X:damping): 1.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[4] /Digit/joints/left_leg_hip_pitch
+    Name: left_leg_hip_pitch
+    Type: PhysicsRevoluteJoint
+    Damping (drive:angular:physics:damping): 0.100000
+    Stiffness (drive:angular:physics:stiffness): 10.000000
+    Damping (physxLimit:X:damping): 1.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[5] /Digit/joints/left_leg_knee
+    Name: left_leg_knee
+    Type: PhysicsRevoluteJoint
+    Damping (drive:angular:physics:damping): 1.000000
+    Stiffness (drive:angular:physics:stiffness): 10.000000
+    Damping (physxLimit:X:damping): 1.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[6] /Digit/joints/left_leg_tarsus
+    Name: left_leg_tarsus
+    Type: PhysicsRevoluteJoint
+    Damping (drive:X:physics:damping): 0.000000
+    Stiffness (drive:X:physics:stiffness): 0.000000
+    Damping (physxLimit:X:damping): 0.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[7] /Digit/joints/left_leg_toe_a
+    Name: left_leg_toe_a
+    Type: PhysicsRevoluteJoint
+    Damping (drive:angular:physics:damping): 1.000000
+    Stiffness (drive:angular:physics:stiffness): 10.000000
+    Damping (physxLimit:X:damping): 1.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[8] /Digit/joints/left_leg_toe_a_rod
+    Name: left_leg_toe_a_rod
+    Type: PhysicsSphericalJoint
+
+[9] /Digit/joints/left_leg_toe_b
+    Name: left_leg_toe_b
+    Type: PhysicsRevoluteJoint
+    Damping (drive:angular:physics:damping): 1.000000
+    Stiffness (drive:angular:physics:stiffness): 10.000000
+    Damping (physxLimit:X:damping): 1.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[10] /Digit/joints/left_leg_toe_b_rod
+    Name: left_leg_toe_b_rod
+    Type: PhysicsSphericalJoint
+
+[11] /Digit/joints/left_leg_toe_pitch
+    Name: left_leg_toe_pitch
+    Type: PhysicsRevoluteJoint
+    Lower Limit: -60.000000 rad
+    Damping (drive:X:physics:damping): 0.000000
+    Stiffness (drive:X:physics:stiffness): 0.000000
+    Damping (physxLimit:X:damping): 0.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[12] /Digit/joints/left_leg_toe_roll
+    Name: left_leg_toe_roll
+    Type: PhysicsRevoluteJoint
+    Lower Limit: -40.000000 rad
+    Damping (drive:X:physics:damping): 0.000000
+    Stiffness (drive:X:physics:stiffness): 0.000000
+    Damping (physxLimit:X:damping): 0.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[13] /Digit/joints/left_arm_shoulder_pitch
+    Name: left_arm_shoulder_pitch
+    Type: PhysicsRevoluteJoint
+    Damping (drive:angular:physics:damping): 1.000000
+    Stiffness (drive:angular:physics:stiffness): 10.000000
+    Damping (physxLimit:X:damping): 1.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[14] /Digit/joints/left_arm_shoulder_roll
+    Name: left_arm_shoulder_roll
+    Type: PhysicsRevoluteJoint
+    Damping (drive:angular:physics:damping): 1.000000
+    Stiffness (drive:angular:physics:stiffness): 10.000000
+    Damping (physxLimit:X:damping): 1.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[15] /Digit/joints/left_arm_shoulder_yaw
+    Name: left_arm_shoulder_yaw
+    Type: PhysicsRevoluteJoint
+    Damping (drive:angular:physics:damping): 1.000000
+    Stiffness (drive:angular:physics:stiffness): 10.000000
+    Damping (physxLimit:X:damping): 1.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[16] /Digit/joints/left_arm_elbow
+    Name: left_arm_elbow
+    Type: PhysicsRevoluteJoint
+    Damping (drive:angular:physics:damping): 1.000000
+    Stiffness (drive:angular:physics:stiffness): 10.000000
+    Damping (physxLimit:X:damping): 1.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[17] /Digit/joints/left_arm_wrist_roll
+    Name: left_arm_wrist_roll
+    Type: PhysicsRevoluteJoint
+    Damping (drive:angular:physics:damping): 1.000000
+    Stiffness (drive:angular:physics:stiffness): 10.000000
+    Damping (physxLimit:X:damping): 1.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[18] /Digit/joints/left_arm_wrist_pitch
+    Name: left_arm_wrist_pitch
+    Type: PhysicsRevoluteJoint
+    Damping (drive:angular:physics:damping): 1.000000
+    Stiffness (drive:angular:physics:stiffness): 10.000000
+    Damping (physxLimit:X:damping): 1.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[19] /Digit/joints/left_arm_wrist_yaw
+    Name: left_arm_wrist_yaw
+    Type: PhysicsRevoluteJoint
+    Damping (drive:angular:physics:damping): 1.000000
+    Stiffness (drive:angular:physics:stiffness): 10.000000
+    Damping (physxLimit:X:damping): 1.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[20] /Digit/joints/right_leg_hip_roll
+    Name: right_leg_hip_roll
+    Type: PhysicsRevoluteJoint
+    Damping (drive:angular:physics:damping): 0.100000
+    Stiffness (drive:angular:physics:stiffness): 10.000000
+    Damping (physxLimit:X:damping): 1.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[21] /Digit/joints/right_leg_hip_yaw
+    Name: right_leg_hip_yaw
+    Type: PhysicsRevoluteJoint
+    Damping (drive:angular:physics:damping): 0.100000
+    Stiffness (drive:angular:physics:stiffness): 10.000000
+    Damping (physxLimit:X:damping): 1.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[22] /Digit/joints/right_leg_hip_pitch
+    Name: right_leg_hip_pitch
+    Type: PhysicsRevoluteJoint
+    Damping (drive:angular:physics:damping): 0.100000
+    Stiffness (drive:angular:physics:stiffness): 10.000000
+    Damping (physxLimit:X:damping): 1.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[23] /Digit/joints/right_leg_achilles_rod
+    Name: right_leg_achilles_rod
+    Type: PhysicsSphericalJoint
+
+[24] /Digit/joints/right_leg_knee
+    Name: right_leg_knee
+    Type: PhysicsRevoluteJoint
+    Damping (drive:angular:physics:damping): 1.000000
+    Stiffness (drive:angular:physics:stiffness): 10.000000
+    Damping (physxLimit:X:damping): 1.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[25] /Digit/joints/right_leg_tarsus
+    Name: right_leg_tarsus
+    Type: PhysicsRevoluteJoint
+    Damping (drive:X:physics:damping): 0.000000
+    Stiffness (drive:X:physics:stiffness): 0.000000
+    Damping (physxLimit:X:damping): 0.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[26] /Digit/joints/right_leg_toe_a
+    Name: right_leg_toe_a
+    Type: PhysicsRevoluteJoint
+    Damping (drive:angular:physics:damping): 1.000000
+    Stiffness (drive:angular:physics:stiffness): 10.000000
+    Damping (physxLimit:X:damping): 1.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[27] /Digit/joints/right_leg_toe_a_rod
+    Name: right_leg_toe_a_rod
+    Type: PhysicsSphericalJoint
+
+[28] /Digit/joints/right_leg_toe_b
+    Name: right_leg_toe_b
+    Type: PhysicsRevoluteJoint
+    Damping (drive:angular:physics:damping): 1.000000
+    Stiffness (drive:angular:physics:stiffness): 10.000000
+    Damping (physxLimit:X:damping): 1.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[29] /Digit/joints/right_leg_toe_b_rod
+    Name: right_leg_toe_b_rod
+    Type: PhysicsSphericalJoint
+
+[30] /Digit/joints/right_leg_toe_pitch
+    Name: right_leg_toe_pitch
+    Type: PhysicsRevoluteJoint
+    Lower Limit: -60.000000 rad
+    Damping (drive:X:physics:damping): 0.000000
+    Stiffness (drive:X:physics:stiffness): 0.000000
+    Damping (physxLimit:X:damping): 0.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[31] /Digit/joints/right_leg_toe_roll
+    Name: right_leg_toe_roll
+    Type: PhysicsRevoluteJoint
+    Lower Limit: -40.000000 rad
+    Damping (drive:X:physics:damping): 0.000000
+    Stiffness (drive:X:physics:stiffness): 0.000000
+    Damping (physxLimit:X:damping): 0.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[32] /Digit/joints/right_arm_shoulder_pitch
+    Name: right_arm_shoulder_pitch
+    Type: PhysicsRevoluteJoint
+    Damping (drive:angular:physics:damping): 1.000000
+    Stiffness (drive:angular:physics:stiffness): 10.000000
+    Damping (physxLimit:X:damping): 1.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[33] /Digit/joints/right_arm_shoulder_roll
+    Name: right_arm_shoulder_roll
+    Type: PhysicsRevoluteJoint
+    Damping (drive:angular:physics:damping): 1.000000
+    Stiffness (drive:angular:physics:stiffness): 10.000000
+    Damping (physxLimit:X:damping): 1.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[34] /Digit/joints/right_arm_shoulder_yaw
+    Name: right_arm_shoulder_yaw
+    Type: PhysicsRevoluteJoint
+    Damping (drive:angular:physics:damping): 1.000000
+    Stiffness (drive:angular:physics:stiffness): 10.000000
+    Damping (physxLimit:X:damping): 1.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[35] /Digit/joints/right_arm_elbow
+    Name: right_arm_elbow
+    Type: PhysicsRevoluteJoint
+    Damping (drive:angular:physics:damping): 1.000000
+    Stiffness (drive:angular:physics:stiffness): 10.000000
+    Damping (physxLimit:X:damping): 1.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[36] /Digit/joints/right_arm_wrist_roll
+    Name: right_arm_wrist_roll
+    Type: PhysicsRevoluteJoint
+    Damping (drive:angular:physics:damping): 1.000000
+    Stiffness (drive:angular:physics:stiffness): 10.000000
+    Damping (physxLimit:X:damping): 1.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[37] /Digit/joints/right_arm_wrist_pitch
+    Name: right_arm_wrist_pitch
+    Type: PhysicsRevoluteJoint
+    Damping (drive:angular:physics:damping): 1.000000
+    Stiffness (drive:angular:physics:stiffness): 10.000000
+    Damping (physxLimit:X:damping): 1.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[38] /Digit/joints/right_arm_wrist_yaw
+    Name: right_arm_wrist_yaw
+    Type: PhysicsRevoluteJoint
+    Damping (drive:angular:physics:damping): 1.000000
+    Stiffness (drive:angular:physics:stiffness): 10.000000
+    Damping (physxLimit:X:damping): 1.000000
+    Stiffness (physxLimit:X:stiffness): 0.000000
+
+[39] /Digit/joints/left_leg_achilles_rod
+    Name: left_leg_achilles_rod
+    Type: PhysicsSphericalJoint
+
+[40] /Digit/joints/right_leg_achiles_tarsus
+    Name: right_leg_achiles_tarsus
+    Type: PhysicsRevoluteJoint
+
+[41] /Digit/joints/left_leg_achiles_tarsus
+    Name: left_leg_achiles_tarsus
+    Type: PhysicsRevoluteJoint
+
+[42] /Digit/joints/left_leg_toe_a_rod_roll
+    Name: left_leg_toe_a_rod_roll
+    Type: PhysicsSphericalJoint
+
+[43] /Digit/joints/left_leg_toe_b_rod_roll
+    Name: left_leg_toe_b_rod_roll
+    Type: PhysicsSphericalJoint
+
+[44] /Digit/joints/right_leg_toe_a_rod_roll
+    Name: right_leg_toe_a_rod_roll
+    Type: PhysicsSphericalJoint
+
+[45] /Digit/joints/right_leg_toe_b_rod_roll
+    Name: right_leg_toe_b_rod_roll
+    Type: PhysicsSphericalJoint
+
+[46] /Digit/joints/forward_chest_camera_mount_joint
+    Name: forward_chest_camera_mount_joint
+    Type: PhysicsFixedJoint
+
+[47] /Digit/joints/backward_pelvis_camera_mount_joint
+    Name: backward_pelvis_camera_mount_joint
+    Type: PhysicsFixedJoint
+
+[48] /Digit/joints/forward_pelvis_camera_mount_joint
+    Name: forward_pelvis_camera_mount_joint
+    Type: PhysicsFixedJoint
+
+[49] /Digit/joints/downward_pelvis_camera_mount_joint
+    Name: downward_pelvis_camera_mount_joint
+    Type: PhysicsFixedJoint
+
+[50] /Digit/left_leg_hip_yaw
+    Name: left_leg_hip_yaw
+    Type: Xform
+
+[51] /Digit/left_leg_hip_pitch
+    Name: left_leg_hip_pitch
+    Type: Xform
+
+[52] /Digit/left_leg_achilles_rod
+    Name: left_leg_achilles_rod
+    Type: Xform
+
+[53] /Digit/left_leg_knee
+    Name: left_leg_knee
+    Type: Xform
+
+[54] /Digit/left_leg_tarsus
+    Name: left_leg_tarsus
+    Type: Xform
+
+[55] /Digit/left_leg_toe_a
+    Name: left_leg_toe_a
+    Type: Xform
+
+[56] /Digit/left_leg_toe_a_rod
+    Name: left_leg_toe_a_rod
+    Type: Xform
+
+[57] /Digit/left_leg_toe_b
+    Name: left_leg_toe_b
+    Type: Xform
+
+[58] /Digit/left_leg_toe_b_rod
+    Name: left_leg_toe_b_rod
+    Type: Xform
+
+[59] /Digit/left_leg_toe_pitch
+    Name: left_leg_toe_pitch
+    Type: Xform
+
+[60] /Digit/left_leg_toe_roll
+    Name: left_leg_toe_roll
+    Type: Xform
+
+[61] /Digit/left_arm_shoulder_pitch
+    Name: left_arm_shoulder_pitch
+    Type: Xform
+
+[62] /Digit/left_arm_shoulder_roll
+    Name: left_arm_shoulder_roll
+    Type: Xform
+
+[63] /Digit/left_arm_shoulder_yaw
+    Name: left_arm_shoulder_yaw
+    Type: Xform
+
+[64] /Digit/left_arm_elbow
+    Name: left_arm_elbow
+    Type: Xform
+
+[65] /Digit/left_arm_wrist_roll
+    Name: left_arm_wrist_roll
+    Type: Xform
+
+[66] /Digit/left_arm_wrist_pitch
+    Name: left_arm_wrist_pitch
+    Type: Xform
+
+[67] /Digit/left_arm_wrist_yaw
+    Name: left_arm_wrist_yaw
+    Type: Xform
+
+[68] /Digit/right_leg_hip_roll
+    Name: right_leg_hip_roll
+    Type: Xform
+
+[69] /Digit/right_leg_hip_yaw
+    Name: right_leg_hip_yaw
+    Type: Xform
+
+[70] /Digit/right_leg_hip_pitch
+    Name: right_leg_hip_pitch
+    Type: Xform
+
+[71] /Digit/right_leg_achilles_rod
+    Name: right_leg_achilles_rod
+    Type: Xform
+
+[72] /Digit/right_leg_knee
+    Name: right_leg_knee
+    Type: Xform
+
+[73] /Digit/right_leg_tarsus
+    Name: right_leg_tarsus
+    Type: Xform
+
+[74] /Digit/right_leg_toe_a
+    Name: right_leg_toe_a
+    Type: Xform
+
+[75] /Digit/right_leg_toe_a_rod
+    Name: right_leg_toe_a_rod
+    Type: Xform
+
+[76] /Digit/right_leg_toe_b
+    Name: right_leg_toe_b
+    Type: Xform
+
+[77] /Digit/right_leg_toe_b_rod
+    Name: right_leg_toe_b_rod
+    Type: Xform
+
+[78] /Digit/right_leg_toe_pitch
+    Name: right_leg_toe_pitch
+    Type: Xform
+
+[79] /Digit/right_leg_toe_roll
+    Name: right_leg_toe_roll
+    Type: Xform
+
+[80] /Digit/right_arm_shoulder_pitch
+    Name: right_arm_shoulder_pitch
+    Type: Xform
+
+[81] /Digit/right_arm_shoulder_roll
+    Name: right_arm_shoulder_roll
+    Type: Xform
+
+[82] /Digit/right_arm_shoulder_yaw
+    Name: right_arm_shoulder_yaw
+    Type: Xform
+
+[83] /Digit/right_arm_elbow
+    Name: right_arm_elbow
+    Type: Xform
+
+[84] /Digit/right_arm_wrist_roll
+    Name: right_arm_wrist_roll
+    Type: Xform
+
+[85] /Digit/right_arm_wrist_pitch
+    Name: right_arm_wrist_pitch
+    Type: Xform
+
+[86] /Digit/right_arm_wrist_yaw
+    Name: right_arm_wrist_yaw
+    Type: Xform
+
+[87] /Digit/torso_base
+    Name: torso_base
+    Type: Xform
+
+[88] /Digit/forward_pelvis_camera_mount
+    Name: forward_pelvis_camera_mount
+    Type: Xform
+
+[89] /Digit/forward_pelvis_camera_mount/realsense/Visual/Case_front
+    Name: Case_front
+    Type: Mesh
+
+[90] /Digit/forward_pelvis_camera_mount/realsense/Visual/Glass
+    Name: Glass
+    Type: Mesh
+
+[91] /Digit/forward_pelvis_camera_mount/realsense/Visual/Case_back
+    Name: Case_back
+    Type: Mesh
+
+[92] /Digit/forward_pelvis_camera_mount/realsense/Visual/USB_C
+    Name: USB_C
+    Type: Mesh
+
+[93] /Digit/forward_pelvis_camera_mount/realsense/Visual/Mount
+    Name: Mount
+    Type: Mesh
+
+[94] /Digit/forward_pelvis_camera_mount/realsense/Visual/Camera_module
+    Name: Camera_module
+    Type: Mesh
+
+[95] /Digit/forward_pelvis_camera_mount/realsense/Visual/Front_mask
+    Name: Front_mask
+    Type: Mesh
+
+[96] /Digit/forward_pelvis_camera_mount/realsense/Visual/camera_mask
+    Name: camera_mask
+    Type: Mesh
+
+[97] /Digit/forward_chest_camera_mount
+    Name: forward_chest_camera_mount
+    Type: Xform
+
+[98] /Digit/forward_chest_camera_mount/forward_chest_camera_mount/Visual/Case_front
+    Name: Case_front
+    Type: Mesh
+
+[99] /Digit/forward_chest_camera_mount/forward_chest_camera_mount/Visual/Glass
+    Name: Glass
+    Type: Mesh
+
+[100] /Digit/forward_chest_camera_mount/forward_chest_camera_mount/Visual/Case_back
+    Name: Case_back
+    Type: Mesh
+
+[101] /Digit/forward_chest_camera_mount/forward_chest_camera_mount/Visual/USB_C
+    Name: USB_C
+    Type: Mesh
+
+[102] /Digit/forward_chest_camera_mount/forward_chest_camera_mount/Visual/Mount
+    Name: Mount
+    Type: Mesh
+
+[103] /Digit/forward_chest_camera_mount/forward_chest_camera_mount/Visual/Camera_module
+    Name: Camera_module
+    Type: Mesh
+
+[104] /Digit/forward_chest_camera_mount/forward_chest_camera_mount/Visual/Front_mask
+    Name: Front_mask
+    Type: Mesh
+
+[105] /Digit/forward_chest_camera_mount/forward_chest_camera_mount/Visual/camera_mask
+    Name: camera_mask
+    Type: Mesh
+
+[106] /Digit/backward_pelvis_camera_mount
+    Name: backward_pelvis_camera_mount
+    Type: Xform
+
+[107] /Digit/backward_pelvis_camera_mount/realsense/Visual/Case_front
+    Name: Case_front
+    Type: Mesh
+
+[108] /Digit/backward_pelvis_camera_mount/realsense/Visual/Glass
+    Name: Glass
+    Type: Mesh
+
+[109] /Digit/backward_pelvis_camera_mount/realsense/Visual/Case_back
+    Name: Case_back
+    Type: Mesh
+
+[110] /Digit/backward_pelvis_camera_mount/realsense/Visual/USB_C
+    Name: USB_C
+    Type: Mesh
+
+[111] /Digit/backward_pelvis_camera_mount/realsense/Visual/Mount
+    Name: Mount
+    Type: Mesh
+
+[112] /Digit/backward_pelvis_camera_mount/realsense/Visual/Camera_module
+    Name: Camera_module
+    Type: Mesh
+
+[113] /Digit/backward_pelvis_camera_mount/realsense/Visual/Front_mask
+    Name: Front_mask
+    Type: Mesh
+
+[114] /Digit/backward_pelvis_camera_mount/realsense/Visual/camera_mask
+    Name: camera_mask
+    Type: Mesh
+
+[115] /Digit/downward_pelvis_camera_mount
+    Name: downward_pelvis_camera_mount
+    Type: Xform
+
+[116] /Digit/downward_pelvis_camera_mount/realsense/Visual/Case_front
+    Name: Case_front
+    Type: Mesh
+
+[117] /Digit/downward_pelvis_camera_mount/realsense/Visual/Glass
+    Name: Glass
+    Type: Mesh
+
+[118] /Digit/downward_pelvis_camera_mount/realsense/Visual/Case_back
+    Name: Case_back
+    Type: Mesh
+
+[119] /Digit/downward_pelvis_camera_mount/realsense/Visual/USB_C
+    Name: USB_C
+    Type: Mesh
+
+[120] /Digit/downward_pelvis_camera_mount/realsense/Visual/Mount
+    Name: Mount
+    Type: Mesh
+
+[121] /Digit/downward_pelvis_camera_mount/realsense/Visual/Camera_module
+    Name: Camera_module
+    Type: Mesh
+
+[122] /Digit/downward_pelvis_camera_mount/realsense/Visual/Front_mask
+    Name: Front_mask
+    Type: Mesh
+
+[123] /Digit/downward_pelvis_camera_mount/realsense/Visual/camera_mask
+    Name: camera_mask
+    Type: Mesh
+
+================================================================================
+                                 PRIM HIERARCHY                                 
+================================================================================
+Digit (Xform)
+  ├─ left_leg_hip_roll (Xform)
+    ├─ visuals (Xform)
+  ├─ joints ()
+    ├─ left_leg_hip_roll (PhysicsRevoluteJoint)
+    ├─ left_leg_hip_yaw (PhysicsRevoluteJoint)
+    ├─ left_leg_hip_pitch (PhysicsRevoluteJoint)
+    ├─ left_leg_knee (PhysicsRevoluteJoint)
+    ├─ left_leg_tarsus (PhysicsRevoluteJoint)
+    ├─ left_leg_toe_a (PhysicsRevoluteJoint)
+    ├─ left_leg_toe_a_rod (PhysicsSphericalJoint)
+    ├─ left_leg_toe_b (PhysicsRevoluteJoint)
+    ├─ left_leg_toe_b_rod (PhysicsSphericalJoint)
+    ├─ left_leg_toe_pitch (PhysicsRevoluteJoint)
+    ├─ left_leg_toe_roll (PhysicsRevoluteJoint)
+    ├─ left_arm_shoulder_pitch (PhysicsRevoluteJoint)
+    ├─ left_arm_shoulder_roll (PhysicsRevoluteJoint)
+    ├─ left_arm_shoulder_yaw (PhysicsRevoluteJoint)
+    ├─ left_arm_elbow (PhysicsRevoluteJoint)
+    ├─ left_arm_wrist_roll (PhysicsRevoluteJoint)
+    ├─ left_arm_wrist_pitch (PhysicsRevoluteJoint)
+    ├─ left_arm_wrist_yaw (PhysicsRevoluteJoint)
+    ├─ right_leg_hip_roll (PhysicsRevoluteJoint)
+    ├─ right_leg_hip_yaw (PhysicsRevoluteJoint)
+    ├─ right_leg_hip_pitch (PhysicsRevoluteJoint)
+    ├─ right_leg_achilles_rod (PhysicsSphericalJoint)
+    ├─ right_leg_knee (PhysicsRevoluteJoint)
+    ├─ right_leg_tarsus (PhysicsRevoluteJoint)
+    ├─ right_leg_toe_a (PhysicsRevoluteJoint)
+    ├─ right_leg_toe_a_rod (PhysicsSphericalJoint)
+    ├─ right_leg_toe_b (PhysicsRevoluteJoint)
+    ├─ right_leg_toe_b_rod (PhysicsSphericalJoint)
+    ├─ right_leg_toe_pitch (PhysicsRevoluteJoint)
+    ├─ right_leg_toe_roll (PhysicsRevoluteJoint)
+    ├─ right_arm_shoulder_pitch (PhysicsRevoluteJoint)
+    ├─ right_arm_shoulder_roll (PhysicsRevoluteJoint)
+    ├─ right_arm_shoulder_yaw (PhysicsRevoluteJoint)
+    ├─ right_arm_elbow (PhysicsRevoluteJoint)
+    ├─ right_arm_wrist_roll (PhysicsRevoluteJoint)
+    ├─ right_arm_wrist_pitch (PhysicsRevoluteJoint)
+    ├─ right_arm_wrist_yaw (PhysicsRevoluteJoint)
+    ├─ left_leg_achilles_rod (PhysicsSphericalJoint)
+    ├─ right_leg_achiles_tarsus (PhysicsRevoluteJoint)
+    ├─ left_leg_achiles_tarsus (PhysicsRevoluteJoint)
+    ├─ left_leg_toe_a_rod_roll (PhysicsSphericalJoint)
+    ├─ left_leg_toe_b_rod_roll (PhysicsSphericalJoint)
+    ├─ right_leg_toe_a_rod_roll (PhysicsSphericalJoint)
+    ├─ right_leg_toe_b_rod_roll (PhysicsSphericalJoint)
+    ├─ forward_chest_camera_mount_joint (PhysicsFixedJoint)
+    ├─ backward_pelvis_camera_mount_joint (PhysicsFixedJoint)
+    ├─ forward_pelvis_camera_mount_joint (PhysicsFixedJoint)
+    ├─ downward_pelvis_camera_mount_joint (PhysicsFixedJoint)
+  ├─ left_leg_hip_yaw (Xform)
+    ├─ visuals (Xform)
+  ├─ left_leg_hip_pitch (Xform)
+    ├─ collisions ()
+    ├─ visuals (Xform)
+  ├─ left_leg_achilles_rod (Xform)
+    ├─ visuals (Xform)
+  ├─ left_leg_knee (Xform)
+    ├─ collisions ()
+    ├─ visuals (Xform)
+  ├─ left_leg_tarsus (Xform)
+    ├─ collisions ()
+    ├─ visuals (Xform)
+  ├─ left_leg_toe_a (Xform)
+    ├─ visuals (Xform)
+  ├─ left_leg_toe_a_rod (Xform)
+    ├─ visuals (Xform)
+  ├─ left_leg_toe_b (Xform)
+    ├─ visuals (Xform)
+  ├─ left_leg_toe_b_rod (Xform)
+    ├─ visuals (Xform)
+  ├─ left_leg_toe_pitch (Xform)
+    ├─ visuals (Xform)
+  ├─ left_leg_toe_roll (Xform)
+    ├─ collisions ()
+    ├─ visuals (Xform)
+  ├─ left_arm_shoulder_pitch (Xform)
+    ├─ visuals (Xform)
+  ├─ left_arm_shoulder_roll (Xform)
+    ├─ visuals (Xform)
+  ├─ left_arm_shoulder_yaw (Xform)
+    ├─ visuals (Xform)
+  ├─ left_arm_elbow (Xform)
+    ├─ visuals (Xform)
+  ├─ left_arm_wrist_roll (Xform)
+    ├─ visuals (Xform)
+  ├─ left_arm_wrist_pitch (Xform)
+    ├─ visuals (Xform)
+  ├─ left_arm_wrist_yaw (Xform)
+    ├─ visuals (Xform)
+  ├─ right_leg_hip_roll (Xform)
+    ├─ visuals (Xform)
+  ├─ right_leg_hip_yaw (Xform)
+    ├─ visuals (Xform)
+  ├─ right_leg_hip_pitch (Xform)
+    ├─ collisions ()
+    ├─ visuals (Xform)
+  ├─ right_leg_achilles_rod (Xform)
+    ├─ visuals (Xform)
+  ├─ right_leg_knee (Xform)
+    ├─ collisions ()
+    ├─ visuals (Xform)
+  ├─ right_leg_tarsus (Xform)
+    ├─ collisions ()
+    ├─ visuals (Xform)
+  ├─ right_leg_toe_a (Xform)
+    ├─ visuals (Xform)
+  ├─ right_leg_toe_a_rod (Xform)
+    ├─ visuals (Xform)
+  ├─ right_leg_toe_b (Xform)
+    ├─ visuals (Xform)
+  ├─ right_leg_toe_b_rod (Xform)
+    ├─ visuals (Xform)
+  ├─ right_leg_toe_pitch (Xform)
+    ├─ visuals (Xform)
+  ├─ right_leg_toe_roll (Xform)
+    ├─ collisions ()
+    ├─ visuals (Xform)
+  ├─ right_arm_shoulder_pitch (Xform)
+    ├─ visuals (Xform)
+  ├─ right_arm_shoulder_roll (Xform)
+    ├─ visuals (Xform)
+  ├─ right_arm_shoulder_yaw (Xform)
+    ├─ visuals (Xform)
+  ├─ right_arm_elbow (Xform)
+    ├─ visuals (Xform)
+  ├─ right_arm_wrist_roll (Xform)
+    ├─ visuals (Xform)
+  ├─ right_arm_wrist_pitch (Xform)
+    ├─ visuals (Xform)
+  ├─ right_arm_wrist_yaw (Xform)
+    ├─ visuals (Xform)
+  ├─ torso_base (Xform)
+    ├─ collisions ()
+    ├─ visuals (Xform)
+  ├─ PhysicsMaterial (Material)
+  ├─ forward_pelvis_camera_mount (Xform)
+    ├─ realsense (Xform)
+      ├─ Looks (Scope)
+        ├─ OmniGlass (Material)
+          ├─ Shader (Shader)
+        ├─ Aluminum_Anodized (Material)
+          ├─ Shader (Shader)
+        ├─ Aluminum_Cast (Material)
+          ├─ Shader (Shader)
+        ├─ Plastic_ABS (Material)
+          ├─ Shader (Shader)
+        ├─ OmniPBR (Material)
+          ├─ Shader (Shader)
+      ├─ Visual (Xform)
+        ├─ Case_front (Mesh)
+        ├─ Glass (Mesh)
+        ├─ Case_back (Mesh)
+        ├─ USB_C (Mesh)
+        ├─ Mount (Mesh)
+        ├─ Camera_module (Mesh)
+        ├─ Front_mask (Mesh)
+        ├─ camera_mask (Mesh)
+      ├─ Camera_OmniVision_OV9782_Color (Camera)
+        ├─ OmniverseKitViewportCameraMesh (Xform)
+          ├─ CameraMode (Mesh)
+  ├─ forward_chest_camera_mount (Xform)
+    ├─ forward_chest_camera_mount (Xform)
+      ├─ Looks (Scope)
+        ├─ OmniGlass (Material)
+          ├─ Shader (Shader)
+        ├─ Aluminum_Anodized (Material)
+          ├─ Shader (Shader)
+        ├─ Aluminum_Cast (Material)
+          ├─ Shader (Shader)
+        ├─ Plastic_ABS (Material)
+          ├─ Shader (Shader)
+        ├─ OmniPBR (Material)
+          ├─ Shader (Shader)
+      ├─ Visual (Xform)
+        ├─ Case_front (Mesh)
+        ├─ Glass (Mesh)
+        ├─ Case_back (Mesh)
+        ├─ USB_C (Mesh)
+        ├─ Mount (Mesh)
+        ├─ Camera_module (Mesh)
+        ├─ Front_mask (Mesh)
+        ├─ camera_mask (Mesh)
+      ├─ Camera_OmniVision_OV9782_Color (Camera)
+        ├─ OmniverseKitViewportCameraMesh (Xform)
+          ├─ CameraMode (Mesh)
+  ├─ backward_pelvis_camera_mount (Xform)
+    ├─ realsense (Xform)
+      ├─ Looks (Scope)
+        ├─ OmniGlass (Material)
+          ├─ Shader (Shader)
+        ├─ Aluminum_Anodized (Material)
+          ├─ Shader (Shader)
+        ├─ Aluminum_Cast (Material)
+          ├─ Shader (Shader)
+        ├─ Plastic_ABS (Material)
+          ├─ Shader (Shader)
+        ├─ OmniPBR (Material)
+          ├─ Shader (Shader)
+      ├─ Visual (Xform)
+        ├─ Case_front (Mesh)
+        ├─ Glass (Mesh)
+        ├─ Case_back (Mesh)
+        ├─ USB_C (Mesh)
+        ├─ Mount (Mesh)
+        ├─ Camera_module (Mesh)
+        ├─ Front_mask (Mesh)
+        ├─ camera_mask (Mesh)
+      ├─ Camera_OmniVision_OV9782_Color (Camera)
+        ├─ OmniverseKitViewportCameraMesh (Xform)
+          ├─ CameraMode (Mesh)
+  ├─ downward_pelvis_camera_mount (Xform)
+    ├─ realsense (Xform)
+      ├─ Looks (Scope)
+        ├─ OmniGlass (Material)
+          ├─ Shader (Shader)
+        ├─ Aluminum_Anodized (Material)
+          ├─ Shader (Shader)
+        ├─ Aluminum_Cast (Material)
+          ├─ Shader (Shader)
+        ├─ Plastic_ABS (Material)
+          ├─ Shader (Shader)
+        ├─ OmniPBR (Material)
+          ├─ Shader (Shader)
+      ├─ Visual (Xform)
+        ├─ Case_front (Mesh)
+        ├─ Glass (Mesh)
+        ├─ Case_back (Mesh)
+        ├─ USB_C (Mesh)
+        ├─ Mount (Mesh)
+        ├─ Camera_module (Mesh)
+        ├─ Front_mask (Mesh)
+        ├─ camera_mask (Mesh)
+      ├─ Camera_OmniVision_OV9782_Color (Camera)
+        ├─ OmniverseKitViewportCameraMesh (Xform)
+          ├─ CameraMode (Mesh)
+
+================================================================================
+                                    SUMMARY                                     
+================================================================================
+Total Prims: 245
+Rigid Bodies: 43
+Joints: 123
+Meshes: 36
+
+Joint Names (123):
+  - left_leg_hip_roll
+  - left_leg_hip_roll
+  - left_leg_hip_yaw
+  - left_leg_hip_pitch
+  - left_leg_knee
+  - left_leg_tarsus
+  - left_leg_toe_a
+  - left_leg_toe_a_rod
+  - left_leg_toe_b
+  - left_leg_toe_b_rod
+  - left_leg_toe_pitch
+  - left_leg_toe_roll
+  - left_arm_shoulder_pitch
+  - left_arm_shoulder_roll
+  - left_arm_shoulder_yaw
+  - left_arm_elbow
+  - left_arm_wrist_roll
+  - left_arm_wrist_pitch
+  - left_arm_wrist_yaw
+  - right_leg_hip_roll
+  - right_leg_hip_yaw
+  - right_leg_hip_pitch
+  - right_leg_achilles_rod
+  - right_leg_knee
+  - right_leg_tarsus
+  - right_leg_toe_a
+  - right_leg_toe_a_rod
+  - right_leg_toe_b
+  - right_leg_toe_b_rod
+  - right_leg_toe_pitch
+  - right_leg_toe_roll
+  - right_arm_shoulder_pitch
+  - right_arm_shoulder_roll
+  - right_arm_shoulder_yaw
+  - right_arm_elbow
+  - right_arm_wrist_roll
+  - right_arm_wrist_pitch
+  - right_arm_wrist_yaw
+  - left_leg_achilles_rod
+  - right_leg_achiles_tarsus
+  - left_leg_achiles_tarsus
+  - left_leg_toe_a_rod_roll
+  - left_leg_toe_b_rod_roll
+  - right_leg_toe_a_rod_roll
+  - right_leg_toe_b_rod_roll
+  - forward_chest_camera_mount_joint
+  - backward_pelvis_camera_mount_joint
+  - forward_pelvis_camera_mount_joint
+  - downward_pelvis_camera_mount_joint
+  - left_leg_hip_yaw
+  - left_leg_hip_pitch
+  - left_leg_achilles_rod
+  - left_leg_knee
+  - left_leg_tarsus
+  - left_leg_toe_a
+  - left_leg_toe_a_rod
+  - left_leg_toe_b
+  - left_leg_toe_b_rod
+  - left_leg_toe_pitch
+  - left_leg_toe_roll
+  - left_arm_shoulder_pitch
+  - left_arm_shoulder_roll
+  - left_arm_shoulder_yaw
+  - left_arm_elbow
+  - left_arm_wrist_roll
+  - left_arm_wrist_pitch
+  - left_arm_wrist_yaw
+  - right_leg_hip_roll
+  - right_leg_hip_yaw
+  - right_leg_hip_pitch
+  - right_leg_achilles_rod
+  - right_leg_knee
+  - right_leg_tarsus
+  - right_leg_toe_a
+  - right_leg_toe_a_rod
+  - right_leg_toe_b
+  - right_leg_toe_b_rod
+  - right_leg_toe_pitch
+  - right_leg_toe_roll
+  - right_arm_shoulder_pitch
+  - right_arm_shoulder_roll
+  - right_arm_shoulder_yaw
+  - right_arm_elbow
+  - right_arm_wrist_roll
+  - right_arm_wrist_pitch
+  - right_arm_wrist_yaw
+  - torso_base
+  - forward_pelvis_camera_mount
+  - Case_front
+  - Glass
+  - Case_back
+  - USB_C
+  - Mount
+  - Camera_module
+  - Front_mask
+  - camera_mask
+  - forward_chest_camera_mount
+  - Case_front
+  - Glass
+  - Case_back
+  - USB_C
+  - Mount
+  - Camera_module
+  - Front_mask
+  - camera_mask
+  - backward_pelvis_camera_mount
+  - Case_front
+  - Glass
+  - Case_back
+  - USB_C
+  - Mount
+  - Camera_module
+  - Front_mask
+  - camera_mask
+  - downward_pelvis_camera_mount
+  - Case_front
+  - Glass
+  - Case_back
+  - USB_C
+  - Mount
+  - Camera_module
+  - Front_mask
+  - camera_mask
+
+Body Names (43):
+  - left_leg_hip_roll
+  - left_leg_hip_yaw
+  - left_leg_hip_pitch
+  - left_leg_achilles_rod
+  - left_leg_knee
+  - left_leg_tarsus
+  - left_leg_toe_a
+  - left_leg_toe_a_rod
+  - left_leg_toe_b
+  - left_leg_toe_b_rod
+  - left_leg_toe_pitch
+  - left_leg_toe_roll
+  - left_arm_shoulder_pitch
+  - left_arm_shoulder_roll
+  - left_arm_shoulder_yaw
+  - left_arm_elbow
+  - left_arm_wrist_roll
+  - left_arm_wrist_pitch
+  - left_arm_wrist_yaw
+  - right_leg_hip_roll
+  - right_leg_hip_yaw
+  - right_leg_hip_pitch
+  - right_leg_achilles_rod
+  - right_leg_knee
+  - right_leg_tarsus
+  - right_leg_toe_a
+  - right_leg_toe_a_rod
+  - right_leg_toe_b
+  - right_leg_toe_b_rod
+  - right_leg_toe_pitch
+  - right_leg_toe_roll
+  - right_arm_shoulder_pitch
+  - right_arm_shoulder_roll
+  - right_arm_shoulder_yaw
+  - right_arm_elbow
+  - right_arm_wrist_roll
+  - right_arm_wrist_pitch
+  - right_arm_wrist_yaw
+  - torso_base
+  - forward_pelvis_camera_mount
+  - forward_chest_camera_mount
+  - backward_pelvis_camera_mount
+  - downward_pelvis_camera_mount

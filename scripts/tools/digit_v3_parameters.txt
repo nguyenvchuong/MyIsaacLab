@@ -1,0 +1,1005 @@
+
+================================================================================
+               INSPECTING: ../mujoco_menagerie/Digit_v3/digit.xml               
+================================================================================
+Model Name: digit
+
+Compiler Settings:
+  angle: radian
+  meshdir: assets
+
+Total Bodies: 37
+
+================================================================================
+                                 BODIES (Links)                                 
+================================================================================
+
+[1] torso
+    Position: (0 0 1)
+    Quaternion: (1 0 0 0)
+    Mass: 17.170000 kg
+    Diagonal Inertia: [0.492749, 0.439332, 0.127268]
+    Center of Mass: (-0.001486, 0.000175, 0.252154)
+    COM Quaternion: (0.999974, 0.000080, -0.007087, -0.000905)
+
+[2] left_hip_roll
+    Position: (-0.001 0.091 0)
+    Quaternion: (0.694697 0.131892 -0.694697 -0.131892)
+    Mass: 0.915088 kg
+    Diagonal Inertia: [0.001148, 0.001018, 0.000765]
+    Center of Mass: (-0.001967, 0.000244, 0.031435)
+    COM Quaternion: (0.698229, -0.021924, -0.014385, 0.715394)
+
+[3] left_hip_yaw
+    Position: (-0.0505 0 0.044)
+    Quaternion: (0.707107 0 -0.707107 0)
+    Mass: 0.818753 kg
+    Diagonal Inertia: [0.001931, 0.001627, 0.000768]
+    Center of Mass: (0.000010, -0.001945, 0.042033)
+    COM Quaternion: (0.705887, 0.015256, -0.016985, 0.707957)
+
+[4] left_hip_pitch
+    Position: (0 0.004 0.068)
+    Quaternion: (0.270598 0.270598 -0.653281 0.653281)
+    Mass: 6.244280 kg
+    Diagonal Inertia: [0.034006, 0.033299, 0.011531]
+    Center of Mass: (0.060537, 0.000521, -0.038857)
+    COM Quaternion: (0.089218, 0.703019, 0.095366, 0.699078)
+
+[5] left_achillies_rod
+    Position: (0 0 0.046)
+    Quaternion: (0.752692 0.0265893 0.0238029 -0.657405)
+    Mass: 0.178148 kg
+    Diagonal Inertia: [0.004501, 0.004501, 0.000003]
+    Center of Mass: (0.250600, 0.000000, 0.000000)
+    COM Quaternion: (0.500000, 0.500000, 0.500000, 0.500000)
+
+[6] left_knee
+    Position: (0.12 0 0.0045)
+    Quaternion: (0.707107 0 0 -0.707107)
+    Mass: 1.227080 kg
+    Diagonal Inertia: [0.007020, 0.006076, 0.001664]
+    Center of Mass: (0.045641, 0.042154, 0.001657)
+    COM Quaternion: (-0.167216, 0.690239, 0.176024, 0.681634)
+
+[7] left_shin
+    Position: (0.060677 0.047406 0)
+    Quaternion: (1 0 0 0)
+    Mass: 0.895793 kg
+    Diagonal Inertia: [0.022795, 0.022548, 0.001070]
+    Center of Mass: (0.174265, 0.010265, 0.001070)
+    COM Quaternion: (0.028055, 0.710242, -0.008059, 0.703352)
+
+[8] left_tarsus
+    Position: (0.434759 0.02 0)
+    Quaternion: (0.622515 0 0 0.782608)
+    Mass: 1.322860 kg
+    Diagonal Inertia: [0.016504, 0.016431, 0.000907]
+    Center of Mass: (0.100777, -0.029183, 0.000678)
+    COM Quaternion: (0.077503, 0.707626, 0.050227, 0.700526)
+
+[9] left_heel_spring
+    Position: (-0.01766 -0.029456 0.00104)
+    Quaternion: (0.209352 0.0109031 -0.0375468 0.977058)
+    Mass: 0.230018 kg
+    Diagonal Inertia: [0.000740, 0.000701, 0.000055]
+    Center of Mass: (0.049086, 0.004739, -0.000045)
+    COM Quaternion: (0.504912, 0.505969, 0.494741, 0.494257)
+
+[10] left_toe_A
+    Position: (0.059 -0.034 -0.0276)
+    Quaternion: (-1.61254e-08 0.694909 -0.719097 1.66867e-08)
+    Mass: 0.139557 kg
+    Diagonal Inertia: [0.000074, 0.000058, 0.000029]
+    Center of Mass: (0.005161, 0.000001, -0.002248)
+    COM Quaternion: (0.000000, 0.675331, 0.000000, 0.737515)
+
+[11] left_toe_A_rod
+    Position: (0.057 0 -0.008)
+    Quaternion: (0.697893 -0.0113021 0.0151583 -0.715953)
+    Mass: 0.090983 kg
+    Diagonal Inertia: [0.001182, 0.001182, 0.000001]
+    Center of Mass: (0.171071, 0.000000, 0.000000)
+    COM Quaternion: (0.500000, 0.500000, 0.500000, 0.500000)
+
+[12] left_toe_B
+    Position: (0.111 -0.034 0.0276)
+    Quaternion: (0.694918 0 0 -0.719089)
+    Mass: 0.139557 kg
+    Diagonal Inertia: [0.000074, 0.000058, 0.000029]
+    Center of Mass: (0.005161, 0.000001, -0.002248)
+    COM Quaternion: (0.000000, 0.675331, 0.000000, 0.737515)
+
+[13] left_toe_B_rod
+    Position: (0.057 0 -0.008)
+    Quaternion: (0.69825 -0.0205714 -0.0173998 0.715347)
+    Mass: 0.079507 kg
+    Diagonal Inertia: [0.000768, 0.000768, 0.000001]
+    Center of Mass: (0.142991, 0.000000, 0.000000)
+    COM Quaternion: (0.500000, 0.500000, 0.500000, 0.500000)
+
+[14] left_toe_pitch
+    Position: (0.408 -0.04 0)
+    Quaternion: (0.826576 0 0 0.562825)
+    Mass: 0.043881 kg
+    Diagonal Inertia: [0.000008, 0.000005, 0.000005]
+    Center of Mass: (-0.000141, 0.000002, 0.000003)
+    COM Quaternion: (0.707107, 0.000000, 0.000000, 0.707107)
+
+[15] left_toe_roll
+    Position: (0 0 0)
+    Quaternion: (0.707107 0 0.707107 0)
+    Mass: 0.531283 kg
+    Diagonal Inertia: [0.001915, 0.001870, 0.000544]
+    Center of Mass: (0.000009, -0.028084, -0.023204)
+    COM Quaternion: (0.686347, 0.170083, -0.170083, 0.686347)
+
+[16] left_shoulder_roll
+    Position: (-0.001 0.12 0.4)
+    Quaternion: (0.704416 -0.0616285 -0.704416 0.0616285)
+    Mass: 0.535396 kg
+    Diagonal Inertia: [0.000757, 0.000700, 0.000295]
+    Center of Mass: (0.000009, -0.003158, 0.023405)
+    COM Quaternion: (0.797183, 0.022245, -0.033525, 0.602396)
+
+[17] left_shoulder_pitch
+    Position: (-0.00017 -0.011055 0.0555)
+    Quaternion: (0.653281 0.653281 0.270598 -0.270598)
+    Mass: 1.440360 kg
+    Diagonal Inertia: [0.006761, 0.006688, 0.001177]
+    Center of Mass: (-0.000042, -0.061882, -0.073788)
+    COM Quaternion: (0.544822, 0.838549, 0.001411, -0.001632)
+
+[18] left_shoulder_yaw
+    Position: (0 -0.165 -0.1)
+    Quaternion: (0.707107 0.707107 0 0)
+    Mass: 1.065390 kg
+    Diagonal Inertia: [0.007003, 0.006967, 0.000673]
+    Center of Mass: (-0.000030, -0.001937, 0.114070)
+    COM Quaternion: (0.716816, 0.000905, -0.000769, 0.697261)
+
+[19] left_elbow
+    Position: (0 -0.0385 0.185)
+    Quaternion: (0.69352 0.69352 -0.13795 0.13795)
+    Mass: 0.550582 kg
+    Diagonal Inertia: [0.009652, 0.009564, 0.000261]
+    Center of Mass: (0.107996, -0.000521, -0.017765)
+    COM Quaternion: (0.015529, 0.758388, 0.020561, 0.651294)
+
+[20] right_hip_roll
+    Position: (-0.001 -0.091 0)
+    Quaternion: (0.694697 -0.131892 -0.694697 0.131892)
+    Mass: 0.915088 kg
+    Diagonal Inertia: [0.001148, 0.001018, 0.000765]
+    Center of Mass: (-0.001967, -0.000244, 0.031435)
+    COM Quaternion: (0.715394, -0.014385, -0.021924, 0.698229)
+
+[21] right_hip_yaw
+    Position: (-0.0505 0 0.044)
+    Quaternion: (0.707107 0 -0.707107 0)
+    Mass: 0.818753 kg
+    Diagonal Inertia: [0.001931, 0.001627, 0.000768]
+    Center of Mass: (0.000010, 0.001945, 0.042033)
+    COM Quaternion: (0.707957, -0.016985, 0.015256, 0.705887)
+
+[22] right_hip_pitch
+    Position: (0 -0.004 0.068)
+    Quaternion: (0.270598 -0.270598 -0.653281 -0.653281)
+    Mass: 6.244280 kg
+    Diagonal Inertia: [0.034006, 0.033299, 0.011531]
+    Center of Mass: (0.060537, -0.000521, -0.038857)
+    COM Quaternion: (-0.089218, 0.703019, -0.095366, 0.699078)
+
+[23] right_achillies_rod
+    Position: (0 0 0.046)
+    Quaternion: (0.752692 -0.0265893 0.0238029 0.657405)
+    Mass: 0.178148 kg
+    Diagonal Inertia: [0.004501, 0.004501, 0.000003]
+    Center of Mass: (0.250600, 0.000000, 0.000000)
+    COM Quaternion: (0.500000, 0.500000, 0.500000, 0.500000)
+
+[24] right_knee
+    Position: (0.12 0 0.0045)
+    Quaternion: (0.707107 0 0 0.707107)
+    Mass: 1.227080 kg
+    Diagonal Inertia: [0.007020, 0.006076, 0.001664]
+    Center of Mass: (0.045641, -0.042154, 0.001657)
+    COM Quaternion: (0.167216, 0.690239, -0.176024, 0.681634)
+
+[25] right_shin
+    Position: (0.060677 -0.047406 0)
+    Quaternion: (1 0 0 0)
+    Mass: 0.895793 kg
+    Diagonal Inertia: [0.022795, 0.022548, 0.001070]
+    Center of Mass: (0.174265, -0.010265, 0.001070)
+    COM Quaternion: (-0.028055, 0.710242, 0.008059, 0.703352)
+
+[26] right_tarsus
+    Position: (0.434759 -0.02 0)
+    Quaternion: (0.622515 0 0 -0.782608)
+    Mass: 1.322860 kg
+    Diagonal Inertia: [0.016504, 0.016431, 0.000907]
+    Center of Mass: (0.100777, 0.029183, 0.000678)
+    COM Quaternion: (-0.077503, 0.707626, -0.050227, 0.700526)
+
+[27] right_heel_spring
+    Position: (-0.01766 0.029456 0.00104)
+    Quaternion: (0.209352 -0.0109031 -0.0375468 -0.977058)
+    Mass: 0.230018 kg
+    Diagonal Inertia: [0.000740, 0.000701, 0.000055]
+    Center of Mass: (0.049086, -0.004739, -0.000045)
+    COM Quaternion: (0.494257, 0.494741, 0.505969, 0.504912)
+
+[28] right_toe_A
+    Position: (0.059 0.034 -0.0276)
+    Quaternion: (-1.61254e-08 -0.694909 -0.719097 -1.66867e-08)
+    Mass: 0.139557 kg
+    Diagonal Inertia: [0.000074, 0.000058, 0.000029]
+    Center of Mass: (0.005161, -0.000001, -0.002248)
+    COM Quaternion: (0.000000, 0.675331, 0.000000, 0.737515)
+
+[29] right_toe_A_rod
+    Position: (0.057 0 -0.008)
+    Quaternion: (0.697893 0.0113021 0.0151583 0.715953)
+    Mass: 0.090983 kg
+    Diagonal Inertia: [0.001182, 0.001182, 0.000001]
+    Center of Mass: (0.171071, 0.000000, 0.000000)
+    COM Quaternion: (0.500000, 0.500000, 0.500000, 0.500000)
+
+[30] right_toe_B
+    Position: (0.111 0.034 0.0276)
+    Quaternion: (0.694918 0 0 0.719089)
+    Mass: 0.139557 kg
+    Diagonal Inertia: [0.000074, 0.000058, 0.000029]
+    Center of Mass: (0.005161, -0.000001, -0.002248)
+    COM Quaternion: (0.000000, 0.675331, 0.000000, 0.737515)
+
+[31] right_toe_B_rod
+    Position: (0.057 0 -0.008)
+    Quaternion: (0.69825 0.0205714 -0.0173998 -0.715347)
+    Mass: 0.079507 kg
+    Diagonal Inertia: [0.000768, 0.000768, 0.000001]
+    Center of Mass: (0.142991, 0.000000, 0.000000)
+    COM Quaternion: (0.500000, 0.500000, 0.500000, 0.500000)
+
+[32] right_toe_pitch
+    Position: (0.408 0.04 0)
+    Quaternion: (0.826576 0 0 -0.562825)
+    Mass: 0.043881 kg
+    Diagonal Inertia: [0.000008, 0.000005, 0.000005]
+    Center of Mass: (-0.000141, -0.000002, 0.000003)
+    COM Quaternion: (0.707107, 0.000000, 0.000000, 0.707107)
+
+[33] right_toe_roll
+    Position: (0 0 0)
+    Quaternion: (0.707107 0 0.707107 0)
+    Mass: 0.531283 kg
+    Diagonal Inertia: [0.001915, 0.001870, 0.000544]
+    Center of Mass: (0.000009, 0.028084, -0.023204)
+    COM Quaternion: (0.686347, -0.170083, 0.170083, 0.686347)
+
+[34] right_shoulder_roll
+    Position: (-0.001 -0.12 0.4)
+    Quaternion: (0.704416 0.0616285 -0.704416 -0.0616285)
+    Mass: 0.535396 kg
+    Diagonal Inertia: [0.000757, 0.000700, 0.000295]
+    Center of Mass: (0.000009, -0.003158, 0.023405)
+    COM Quaternion: (0.602396, -0.033525, 0.022245, 0.797183)
+
+[35] right_shoulder_pitch
+    Position: (-0.00017 0.011055 0.0555)
+    Quaternion: (0.653281 -0.653281 0.270598 0.270598)
+    Mass: 1.440360 kg
+    Diagonal Inertia: [0.006761, 0.006688, 0.001177]
+    Center of Mass: (-0.000042, 0.061882, -0.073788)
+    COM Quaternion: (0.838549, 0.544822, 0.001632, -0.001411)
+
+[36] right_shoulder_yaw
+    Position: (0 0.165 -0.1)
+    Quaternion: (0.707107 -0.707107 0 0)
+    Mass: 1.065390 kg
+    Diagonal Inertia: [0.007003, 0.006967, 0.000673]
+    Center of Mass: (-0.000030, -0.001937, 0.114070)
+    COM Quaternion: (0.697261, -0.000769, 0.000905, 0.716816)
+
+[37] right_elbow
+    Position: (0 0.0385 0.185)
+    Quaternion: (0.69352 -0.69352 -0.13795 -0.13795)
+    Mass: 0.550582 kg
+    Diagonal Inertia: [0.009652, 0.009564, 0.000261]
+    Center of Mass: (0.107996, 0.000521, -0.017765)
+    COM Quaternion: (-0.015529, 0.758388, -0.020561, 0.651294)
+
+================================================================================
+                                     JOINTS                                     
+================================================================================
+
+[1] left_hip_roll_joint
+    Type: hinge
+    Position: (0 0 0)
+    Axis: (0 0 1)
+    Limited: true
+    Range: [-1.047200, 1.047200] rad
+    Damping: 1.000000
+    Friction Loss: 1.000000
+    Armature: 0.172800
+
+[2] left_hip_yaw_joint
+    Type: hinge
+    Position: (0 0 0)
+    Axis: (0 0 1)
+    Limited: true
+    Range: [-0.698132, 0.698132] rad
+    Damping: 1.000000
+    Friction Loss: 1.000000
+    Armature: 0.067500
+
+[3] left_hip_pitch_joint
+    Type: hinge
+    Position: (0 0 0)
+    Axis: (0 0 -1)
+    Limited: true
+    Range: [-1.047200, 1.570800] rad
+    Damping: 1.000000
+    Friction Loss: 0.500000
+    Armature: 0.120576
+
+[4] left_achillies_rod_joint
+    Type: ball
+    Position: (0 0 0)
+    Axis: (0 0 1)
+    Limited: false
+    Damping: 0.010000
+
+[5] left_knee_joint
+    Type: hinge
+    Position: (0 0 0)
+    Axis: (0 0 1)
+    Limited: true
+    Range: [-1.239200, 0.872700] rad
+    Damping: 1.000000
+    Friction Loss: 0.500000
+    Armature: 0.120576
+
+[6] left_tarsus_joint
+    Type: hinge
+    Position: (0 0 0)
+    Axis: (0 0 1)
+    Limited: true
+    Range: [-0.877900, 1.249700] rad
+
+[7] left_toe_A_joint
+    Type: hinge
+    Position: (0 0 0)
+    Axis: (0 0 1)
+    Limited: true
+    Range: [-0.912807, 1.264490] rad
+    Damping: 1.000000
+    Friction Loss: 1.000000
+    Armature: 0.035000
+
+[8] left_toe_A_rod_joint
+    Type: ball
+    Position: (0 0 0)
+    Axis: (0 0 1)
+    Limited: false
+    Damping: 0.010000
+
+[9] left_toe_B_joint
+    Type: hinge
+    Position: (0 0 0)
+    Axis: (0 0 1)
+    Limited: true
+    Range: [-0.912807, 1.264490] rad
+    Damping: 1.000000
+    Friction Loss: 1.000000
+    Armature: 0.035000
+
+[10] left_toe_B_rod_joint
+    Type: ball
+    Position: (0 0 0)
+    Axis: (0 0 1)
+    Limited: false
+    Damping: 0.010000
+
+[11] left_toe_pitch_joint
+    Type: hinge
+    Position: (0 0 0)
+    Axis: (0 0 1)
+    Limited: true
+    Range: [-0.785398, 0.785398] rad
+
+[12] left_toe_roll_joint
+    Type: hinge
+    Position: (0 0 0)
+    Axis: (0 0 1)
+    Limited: true
+    Range: [-0.610900, 0.610900] rad
+
+[13] left_shoulder_roll_joint
+    Type: hinge
+    Position: (0 0 0)
+    Axis: (0 0 1)
+    Limited: true
+    Range: [-1.309000, 1.309000] rad
+    Damping: 2.000000
+    Friction Loss: 2.000000
+    Armature: 0.172800
+
+[14] left_shoulder_pitch_joint
+    Type: hinge
+    Position: (0 0 0)
+    Axis: (0 0 -1)
+    Limited: true
+    Range: [-2.530700, 2.530700] rad
+    Damping: 2.000000
+    Friction Loss: 2.000000
+    Armature: 0.172800
+
+[15] shoulder_yaw_joint_left
+    Type: hinge
+    Position: (0 0 0)
+    Axis: (0 0 1)
+    Limited: true
+    Range: [-1.745300, 1.745300] rad
+    Damping: 1.000000
+    Friction Loss: 2.000000
+    Armature: 0.067500
+
+[16] left_elbow_joint
+    Type: hinge
+    Position: (0 0 0)
+    Axis: (0 0 1)
+    Limited: true
+    Range: [-1.352600, 1.352600] rad
+    Damping: 1.000000
+    Friction Loss: 2.000000
+    Armature: 0.172800
+
+[17] right_hip_roll_joint
+    Type: hinge
+    Position: (0 0 0)
+    Axis: (0 0 1)
+    Limited: true
+    Range: [-1.047200, 1.047200] rad
+    Damping: 1.000000
+    Friction Loss: 1.000000
+    Armature: 0.172800
+
+[18] right_hip_yaw_joint
+    Type: hinge
+    Position: (0 0 0)
+    Axis: (0 0 1)
+    Limited: true
+    Range: [-0.698132, 0.698132] rad
+    Damping: 1.000000
+    Friction Loss: 1.000000
+    Armature: 0.067500
+
+[19] right_hip_pitch_joint
+    Type: hinge
+    Position: (0 0 0)
+    Axis: (0 0 -1)
+    Limited: true
+    Range: [-1.047200, 1.570800] rad
+    Damping: 1.000000
+    Friction Loss: 0.500000
+    Armature: 0.120576
+
+[20] right_achillies_rod_joint
+    Type: ball
+    Position: (0 0 0)
+    Axis: (0 0 1)
+    Limited: false
+    Damping: 0.010000
+
+[21] right_knee_joint
+    Type: hinge
+    Position: (0 0 0)
+    Axis: (0 0 1)
+    Limited: true
+    Range: [-0.872700, 1.239200] rad
+    Damping: 1.000000
+    Friction Loss: 0.500000
+    Armature: 0.120576
+
+[22] right_tarsus_joint
+    Type: hinge
+    Position: (0 0 0)
+    Axis: (0 0 1)
+    Limited: true
+    Range: [-1.249700, 0.877900] rad
+
+[23] right_toe_A_joint
+    Type: hinge
+    Position: (0 0 0)
+    Axis: (0 0 1)
+    Limited: true
+    Range: [-1.264490, 0.912807] rad
+    Damping: 1.000000
+    Friction Loss: 1.000000
+    Armature: 0.035000
+
+[24] right_toe_A_rod_joint
+    Type: ball
+    Position: (0 0 0)
+    Axis: (0 0 1)
+    Limited: false
+    Damping: 0.010000
+
+[25] right_toe_B_joint
+    Type: hinge
+    Position: (0 0 0)
+    Axis: (0 0 1)
+    Limited: true
+    Range: [-0.912807, 1.264490] rad
+    Damping: 1.000000
+    Friction Loss: 1.000000
+    Armature: 0.035000
+
+[26] right_toe_B_rod_joint
+    Type: ball
+    Position: (0 0 0)
+    Axis: (0 0 1)
+    Limited: false
+    Damping: 0.010000
+
+[27] right_toe_pitch_joint
+    Type: hinge
+    Position: (0 0 0)
+    Axis: (0 0 1)
+    Limited: true
+    Range: [-0.785398, 0.785398] rad
+
+[28] right_toe_roll_joint
+    Type: hinge
+    Position: (0 0 0)
+    Axis: (0 0 1)
+    Limited: true
+    Range: [-0.610900, 0.610900] rad
+
+[29] right_shoulder_roll_joint
+    Type: hinge
+    Position: (0 0 0)
+    Axis: (0 0 1)
+    Limited: true
+    Range: [-1.309000, 1.309000] rad
+    Damping: 2.000000
+    Friction Loss: 2.000000
+    Armature: 0.172800
+
+[30] right_shoulder_pitch_joint
+    Type: hinge
+    Position: (0 0 0)
+    Axis: (0 0 -1)
+    Limited: true
+    Range: [-2.530700, 2.530700] rad
+    Damping: 2.000000
+    Friction Loss: 2.000000
+    Armature: 0.172800
+
+[31] shoulder_yaw_joint_right
+    Type: hinge
+    Position: (0 0 0)
+    Axis: (0 0 1)
+    Limited: true
+    Range: [-1.745300, 1.745300] rad
+    Damping: 1.000000
+    Friction Loss: 2.000000
+    Armature: 0.067500
+
+[32] right_elbow_joint
+    Type: hinge
+    Position: (0 0 0)
+    Axis: (0 0 1)
+    Limited: true
+    Range: [-1.352600, 1.352600] rad
+    Damping: 1.000000
+    Friction Loss: 2.000000
+    Armature: 0.172800
+
+================================================================================
+                               ACTUATORS (Motors)                               
+================================================================================
+
+[1] left_hip_roll_joint
+    Joint: left_hip_roll_joint
+    Control Limited: false
+
+[2] left_hip_yaw_joint
+    Joint: left_hip_yaw_joint
+    Control Limited: false
+
+[3] left_hip_pitch_joint
+    Joint: left_hip_pitch_joint
+    Control Limited: false
+
+[4] left_knee_joint
+    Joint: left_knee_joint
+    Control Limited: false
+
+[5] left_tarsus_joint
+    Joint: left_tarsus_joint
+    Control Limited: false
+
+[6] left_toe_A_joint
+    Joint: left_toe_A_joint
+    Control Limited: false
+
+[7] left_toe_B_joint
+    Joint: left_toe_B_joint
+    Control Limited: false
+
+[8] toe_pitch_joint_left
+    Joint: left_toe_pitch_joint
+    Control Limited: false
+
+[9] toe_roll_joint_left
+    Joint: left_toe_roll_joint
+    Control Limited: false
+
+[10] left_shoulder_roll_joint
+    Joint: left_shoulder_roll_joint
+    Control Limited: false
+
+[11] left_shoulder_pitch_joint
+    Joint: left_shoulder_pitch_joint
+    Control Limited: false
+
+[12] left_shoulder_yaw_joint
+    Joint: shoulder_yaw_joint_left
+    Control Limited: false
+
+[13] left_elbow_joint
+    Joint: left_elbow_joint
+    Control Limited: false
+
+[14] right_hip_roll_joint
+    Joint: right_hip_roll_joint
+    Control Limited: false
+
+[15] right_hip_yaw_joint
+    Joint: right_hip_yaw_joint
+    Control Limited: false
+
+[16] right_hip_pitch_joint
+    Joint: right_hip_pitch_joint
+    Control Limited: false
+
+[17] right_knee_joint
+    Joint: right_knee_joint
+    Control Limited: false
+
+[18] right_tarsus_joint
+    Joint: right_tarsus_joint
+    Control Limited: false
+
+[19] right_toe_A_joint
+    Joint: right_toe_A_joint
+    Control Limited: false
+
+[20] right_toe_B_joint
+    Joint: right_toe_B_joint
+    Control Limited: false
+
+[21] toe_pitch_joint_right
+    Joint: right_toe_pitch_joint
+    Control Limited: false
+
+[22] toe_roll_joint_right
+    Joint: right_toe_roll_joint
+    Control Limited: false
+
+[23] right_shoulder_roll_joint
+    Joint: right_shoulder_roll_joint
+    Control Limited: false
+
+[24] right_shoulder_pitch_joint
+    Joint: right_shoulder_pitch_joint
+    Control Limited: false
+
+[25] right_shoulder_yaw_joint
+    Joint: shoulder_yaw_joint_right
+    Control Limited: false
+
+[26] right_elbow_joint
+    Joint: right_elbow_joint
+    Control Limited: false
+
+================================================================================
+                                     MESHES                                     
+================================================================================
+Total Meshes: 41
+
+[1] torso
+    File: torso.stl
+
+[2] left-waist-cap
+    File: left-waist-cap.stl
+    Scale: (1.00, -1.00, 1.00)
+
+[3] hip-yaw-housing
+    File: hip-yaw-housing.stl
+
+[4] hip-pitch-housing
+    File: hip-pitch-housing.stl
+
+[5] hip-pitch
+    File: hip-pitch.stl
+
+[6] achilles-rod
+    File: achilles-rod.stl
+
+[7] knee
+    File: knee.stl
+
+[8] shin
+    File: shin.stl
+
+[9] tarsus
+    File: tarsus.stl
+
+[10] heel-spring
+    File: heel-spring.stl
+
+[11] toe-output-ll
+    File: toe-output-ll.stl
+
+[12] toe-A-rod
+    File: toe-A-rod.stl
+
+[13] toe-output-lr
+    File: toe-output-lr.stl
+
+[14] toe-B-rod
+    File: toe-B-rod.stl
+
+[15] toe-pitch
+    File: toe-pitch.stl
+
+[16] toe-roll
+    File: toe-roll.stl
+
+[17] left-shoulder-cap
+    File: left-shoulder-cap.stl
+
+[18] arm-L1
+    File: arm-L1.stl
+
+[19] arm-L2
+    File: arm-L2.stl
+
+[20] arm-L3
+    File: arm-L3.stl
+
+[21] arm-L4
+    File: arm-L4.stl
+
+[22] right-waist-cap
+    File: right-waist-cap.stl
+
+[23] hip-yaw-housing1
+    File: hip-yaw-housing.stl
+    Scale: (1.00, -1.00, 1.00)
+
+[24] hip-pitch-housing1
+    File: hip-pitch-housing.stl
+    Scale: (1.00, -1.00, 1.00)
+
+[25] hip-pitch1
+    File: hip-pitch.stl
+    Scale: (1.00, -1.00, 1.00)
+
+[26] achilles-rod1
+    File: achilles-rod.stl
+    Scale: (1.00, -1.00, 1.00)
+
+[27] knee1
+    File: knee.stl
+    Scale: (1.00, -1.00, 1.00)
+
+[28] shin1
+    File: shin.stl
+    Scale: (1.00, -1.00, 1.00)
+
+[29] tarsus1
+    File: tarsus.stl
+    Scale: (1.00, -1.00, 1.00)
+
+[30] heel-spring1
+    File: heel-spring.stl
+    Scale: (1.00, -1.00, 1.00)
+
+[31] toe-output-rl
+    File: toe-output-rl.stl
+    Scale: (1.00, -1.00, 1.00)
+
+[32] toe-A-rod1
+    File: toe-A-rod.stl
+    Scale: (1.00, -1.00, 1.00)
+
+[33] toe-output-rr
+    File: toe-output-rr.stl
+    Scale: (1.00, -1.00, 1.00)
+
+[34] toe-B-rod1
+    File: toe-B-rod.stl
+    Scale: (1.00, -1.00, 1.00)
+
+[35] toe-pitch1
+    File: toe-pitch.stl
+    Scale: (1.00, -1.00, 1.00)
+
+[36] toe-roll1
+    File: toe-roll.stl
+    Scale: (1.00, -1.00, 1.00)
+
+[37] right-shoulder-cap
+    File: right-shoulder-cap.stl
+    Scale: (1.00, -1.00, 1.00)
+
+[38] arm-L11
+    File: arm-L1.stl
+    Scale: (1.00, -1.00, 1.00)
+
+[39] arm-L21
+    File: arm-L2.stl
+    Scale: (1.00, -1.00, 1.00)
+
+[40] arm-L31
+    File: arm-L3.stl
+    Scale: (1.00, -1.00, 1.00)
+
+[41] arm-L41
+    File: arm-L4.stl
+    Scale: (1.00, -1.00, 1.00)
+
+================================================================================
+                                 BODY HIERARCHY                                 
+================================================================================
+torso (body)
+  ├─ left_hip_roll (body)
+    ├─ left_hip_yaw (body)
+      ├─ left_hip_pitch (body)
+        ├─ left_achillies_rod (body)
+        ├─ left_knee (body)
+          ├─ left_shin (body)
+            ├─ left_tarsus (body)
+              ├─ left_heel_spring (body)
+              ├─ left_toe_A (body)
+                ├─ left_toe_A_rod (body)
+              ├─ left_toe_B (body)
+                ├─ left_toe_B_rod (body)
+              ├─ left_toe_pitch (body)
+                ├─ left_toe_roll (body)
+  ├─ left_shoulder_roll (body)
+    ├─ left_shoulder_pitch (body)
+      ├─ left_shoulder_yaw (body)
+        ├─ left_elbow (body)
+  ├─ right_hip_roll (body)
+    ├─ right_hip_yaw (body)
+      ├─ right_hip_pitch (body)
+        ├─ right_achillies_rod (body)
+        ├─ right_knee (body)
+          ├─ right_shin (body)
+            ├─ right_tarsus (body)
+              ├─ right_heel_spring (body)
+              ├─ right_toe_A (body)
+                ├─ right_toe_A_rod (body)
+              ├─ right_toe_B (body)
+                ├─ right_toe_B_rod (body)
+              ├─ right_toe_pitch (body)
+                ├─ right_toe_roll (body)
+  ├─ right_shoulder_roll (body)
+    ├─ right_shoulder_pitch (body)
+      ├─ right_shoulder_yaw (body)
+        ├─ right_elbow (body)
+
+================================================================================
+                                    SUMMARY                                     
+================================================================================
+Total Bodies: 37
+Total Joints: 32
+Total Actuators: 26
+Total Meshes: 41
+
+Joint Names (32):
+  - left_hip_roll_joint
+  - left_hip_yaw_joint
+  - left_hip_pitch_joint
+  - left_achillies_rod_joint
+  - left_knee_joint
+  - left_tarsus_joint
+  - left_toe_A_joint
+  - left_toe_A_rod_joint
+  - left_toe_B_joint
+  - left_toe_B_rod_joint
+  - left_toe_pitch_joint
+  - left_toe_roll_joint
+  - left_shoulder_roll_joint
+  - left_shoulder_pitch_joint
+  - shoulder_yaw_joint_left
+  - left_elbow_joint
+  - right_hip_roll_joint
+  - right_hip_yaw_joint
+  - right_hip_pitch_joint
+  - right_achillies_rod_joint
+  - right_knee_joint
+  - right_tarsus_joint
+  - right_toe_A_joint
+  - right_toe_A_rod_joint
+  - right_toe_B_joint
+  - right_toe_B_rod_joint
+  - right_toe_pitch_joint
+  - right_toe_roll_joint
+  - right_shoulder_roll_joint
+  - right_shoulder_pitch_joint
+  - shoulder_yaw_joint_right
+  - right_elbow_joint
+
+Body Names (37):
+  - torso
+  - left_hip_roll
+  - left_hip_yaw
+  - left_hip_pitch
+  - left_achillies_rod
+  - left_knee
+  - left_shin
+  - left_tarsus
+  - left_heel_spring
+  - left_toe_A
+  - left_toe_A_rod
+  - left_toe_B
+  - left_toe_B_rod
+  - left_toe_pitch
+  - left_toe_roll
+  - left_shoulder_roll
+  - left_shoulder_pitch
+  - left_shoulder_yaw
+  - left_elbow
+  - right_hip_roll
+  - right_hip_yaw
+  - right_hip_pitch
+  - right_achillies_rod
+  - right_knee
+  - right_shin
+  - right_tarsus
+  - right_heel_spring
+  - right_toe_A
+  - right_toe_A_rod
+  - right_toe_B
+  - right_toe_B_rod
+  - right_toe_pitch
+  - right_toe_roll
+  - right_shoulder_roll
+  - right_shoulder_pitch
+  - right_shoulder_yaw
+  - right_elbow
+
+Actuator Names (26):
+  - left_hip_roll_joint (joint: left_hip_roll_joint)
+  - left_hip_yaw_joint (joint: left_hip_yaw_joint)
+  - left_hip_pitch_joint (joint: left_hip_pitch_joint)
+  - left_knee_joint (joint: left_knee_joint)
+  - left_tarsus_joint (joint: left_tarsus_joint)
+  - left_toe_A_joint (joint: left_toe_A_joint)
+  - left_toe_B_joint (joint: left_toe_B_joint)
+  - toe_pitch_joint_left (joint: left_toe_pitch_joint)
+  - toe_roll_joint_left (joint: left_toe_roll_joint)
+  - left_shoulder_roll_joint (joint: left_shoulder_roll_joint)
+  - left_shoulder_pitch_joint (joint: left_shoulder_pitch_joint)
+  - left_shoulder_yaw_joint (joint: shoulder_yaw_joint_left)
+  - left_elbow_joint (joint: left_elbow_joint)
+  - right_hip_roll_joint (joint: right_hip_roll_joint)
+  - right_hip_yaw_joint (joint: right_hip_yaw_joint)
+  - right_hip_pitch_joint (joint: right_hip_pitch_joint)
+  - right_knee_joint (joint: right_knee_joint)
+  - right_tarsus_joint (joint: right_tarsus_joint)
+  - right_toe_A_joint (joint: right_toe_A_joint)
+  - right_toe_B_joint (joint: right_toe_B_joint)
+  - toe_pitch_joint_right (joint: right_toe_pitch_joint)
+  - toe_roll_joint_right (joint: right_toe_roll_joint)
+  - right_shoulder_roll_joint (joint: right_shoulder_roll_joint)
+  - right_shoulder_pitch_joint (joint: right_shoulder_pitch_joint)
+  - right_shoulder_yaw_joint (joint: shoulder_yaw_joint_right)
+  - right_elbow_joint (joint: right_elbow_joint)
