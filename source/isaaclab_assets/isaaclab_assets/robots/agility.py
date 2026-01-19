@@ -25,7 +25,26 @@ DIGIT_V4_CFG = ArticulationCfg(
         # Original Nucleus path (commented out):
         # usd_path=f"{ISAAC_NUCLEUS_DIR}/Robots/Agility/Digit/digit_v4.usd",
         # Local path:
-        usd_path="/home/vancenguyen/research/MyIsaacLab/scripts/tools/digit_assets/digit_v4.usd",
+        usd_path="/home/vancenguyen/research/MyIsaacLab/scripts/tools/digit_assets/Digit/digit_v4.usd",
+        activate_contact_sensors=True,
+    ),
+    init_state=ArticulationCfg.InitialStateCfg(
+        pos=(0.0, 0.0, 1.05),
+    ),
+    soft_joint_pos_limit_factor=0.9,
+    actuators={
+        "all": ImplicitActuatorCfg(
+            joint_names_expr=".*",
+            stiffness=None,
+            damping=None,
+        ),
+    },
+)
+
+DIGIT_V3_CFG = ArticulationCfg(
+    spawn=sim_utils.UsdFileCfg(
+        # Local path:
+        usd_path="/home/vancenguyen/research/MyIsaacLab/scripts/tools/digit_assets/digit_v3.usd",
         activate_contact_sensors=True,
     ),
     init_state=ArticulationCfg.InitialStateCfg(
